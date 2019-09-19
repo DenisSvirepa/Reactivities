@@ -13,7 +13,7 @@ const car1 : ICar = {
 
 const car2: ICar = {
     color:'red',
-    model:'Mercedes'
+    model:'Mercedes',
     topSpeed: 100
 }
 
