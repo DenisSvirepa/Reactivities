@@ -15,13 +15,13 @@ const NavBar: React.FC = () => {
           />
           Единый Реестр Лицензий
         </Menu.Item>
-        <Menu.Item name="Activities" as={NavLink} to="/activities" />
+        <Menu.Item name="Реестр лицензий" as={NavLink} to="/activities" />
         <Menu.Item>
           <Button
             as={NavLink}
             to="/createActivity"
             positive
-            content="Create Activity"
+            content="Создать лицензию"
           />
         </Menu.Item>
       </Container>
